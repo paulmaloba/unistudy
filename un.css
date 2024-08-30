@@ -33,7 +33,7 @@ body{
     position: absolute;
     left: 30%;
     top: 0;
-    color: rgba(128, 8, 112, 0.432);
+    color: white;
 }
 
 .content{
@@ -92,7 +92,7 @@ h1 span{
         height: 50px;
     }
     .logo h2 {
-        font-size: 24px;
+        font-size: 18px;
         left: 50%;
         transform: translate(-50%);
     }
