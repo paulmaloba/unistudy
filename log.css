@@ -3,7 +3,7 @@ body{
     background-position: center;
     background: gray;
 }
-.rec {
+#rec {
     color: black;
     font-weght: bold;
 }
@@ -181,7 +181,7 @@ floor p1 span{
         margin: 10px auto;
         text-align: center;
     }
-    .rec {
+    #rec {
         margin-top: 25px;
 }
 
