@@ -145,6 +145,7 @@ floor p1 span{
         width: 90%;
         right: 5%;
         top: 10%;
+        margin-top: 7px;
     }
     .input-box {
         font-size: 24px;
