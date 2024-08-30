@@ -3,7 +3,7 @@ body{
     background-position: center;
     background: gray;
 }
-.rec {
+.rec p1 {
     color: white;
     font-weght: bold;
 }
@@ -146,7 +146,7 @@ floor p1 span{
         text-align: center;
         margin: 0 auto;
     }
-    .rec {
+    .rec p1 {
         color: white;
         margin-top: 55%;
     }
