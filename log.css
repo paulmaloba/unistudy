@@ -4,7 +4,7 @@ body{
     background: gray;
 }
 #rec p1 {
-    color: white;
+    color: darkslateblue;
     font-weght: bold;
 }
 
@@ -146,6 +146,9 @@ floor p1 span{
         text-align: center;
         margin: 0 auto;
     }
+    #rec p1 {
+        color: darkslateblue;
+        margin-top: 75%;
     .wrapper {
         width: 90%;
         right: 5%;
@@ -181,9 +184,6 @@ floor p1 span{
         margin: 10px auto;
         text-align: center;
     }
-    #rec p1 {
-        margin-top: 5em;
-        color: darkslateblue;
-    }
+    
 }
 
