@@ -182,7 +182,8 @@ floor p1 span{
         text-align: center;
     }
     #rec p1 {
-        top: 65%;
+        margin-top: 5em;
+        color: darkslateblue;
     }
 }
 
