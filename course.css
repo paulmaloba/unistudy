@@ -1,0 +1,108 @@
+body{
+    background: gray;
+}
+center{
+    
+    width: 100%;
+    border-radius: 8px;
+   
+}
+.courses{
+    font-size: 40px;
+    background: darkslateblue;
+    min-height: 100px;   
+    border-radius: 20px;
+    border: 7px solid white;
+    width: 500px;
+    
+}
+.log{
+    background: darkslateblue;
+    min-height: 40px;
+    padding-top: 30px;
+    border-radius: 20px;;
+    align-items: center;
+    
+}
+#im2{
+   position: absolute;
+   right: 50px;
+   top: 15px;
+}
+#im1{
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+.log img{
+    border-radius: 20px;
+}
+.log h1{
+    position: absolute;
+    right: 40%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: All 0.2s;
+    top: -4px;
+}
+.courses button{
+font-size: 30px;
+top: -8px;
+background: darkslateblue;
+width: 80%;
+transition: all 0.2s;
+}
+.courses button:hover{
+    border: 5px solid white;
+    background: skyblue;
+    cursor: pointer;
+    width: 90%;
+    font-size: 35px;
+    padding-top: 10px;
+    border-top: 5px solid darkslateblue;
+    border-radius: 10px;
+}
+.courses:hover{
+
+
+}
+
+/* responsive adjustment for mobile phones */
+
+@media only screen and (max-width: 768px) {
+    .courses {
+        font-size: 24px;
+        min-height: 80px;
+        width: 100%;
+        margin: 10px auto;
+    }
+    .logo {
+        padding-top: 20px;
+        text-align: center;
+    }
+    #im2, #im1 {
+        position: relative;
+        top: 10px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        display: block;
+        width: 60px;
+    }
+    .log h1{
+        right: 0;
+        left: 0;
+        position: relative;
+        font-size: 28px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .courses button {
+        font-size: 24px;
+        width: 100%;
+    }
+    .courses button:hover {
+        font-size: 28px;
+        width: 100%;
+    }
+}
