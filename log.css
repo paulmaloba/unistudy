@@ -3,6 +3,11 @@ body{
     background-position: center;
     background: gray;
 }
+.rec {
+    color: black;
+    font-weght: bold;
+}
+
 #im1{
     position: absolute;
     left: 50px;
