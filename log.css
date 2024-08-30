@@ -62,7 +62,7 @@ body{
     font-size: 25px;
 }
 .wrapper:hover{
-    move: bottom;
+    
     border: 4px solid rgb(21, 94, 230);
     font-size: 25px;
     background: blur;
@@ -169,7 +169,7 @@ floor p1 span{
     }
     floor {
         font-size: 18px;
-        top: 70%;
+        top: 0;
         bottom: 0;
         padding: 10px 0;
     }
@@ -183,5 +183,6 @@ floor p1 span{
     }
     #rec p1 {
         top: 30%;
+    }
 }
 
