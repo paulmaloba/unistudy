@@ -4,7 +4,7 @@ body{
     background: gray;
 }
 .rec {
-    color: darkslateblue;
+    color: white;
     font-weght: bold;
 }
 
@@ -147,7 +147,7 @@ floor p1 span{
         margin: 0 auto;
     }
     .rec {
-        color: darkslateblue;
+        color: white;
         margin-top: 75%;
     }
     .wrapper {
