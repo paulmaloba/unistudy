@@ -83,6 +83,38 @@ h1 span{
     color: white;
 
 }
+.pp1{
+    animation-name: slideInLeft;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-iteration-count: 1;
+}
+.pp2{
+    animation-name: slideInLeft;
+    animation-duration: 5s;
+    animation-delay: 0;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-iteration-count: 1;
+}
+.pp3{
+    animation-name: slideInLeft;
+    animation-duration: 9s;
+    animation-delay: 0;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-iteration-count: 1;
+}
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
 
 /* responsive adjustments for mobile phones */
 
