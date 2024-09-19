@@ -18,7 +18,7 @@ function autoLogin() {
     const storedPassword = localStorage.getItem('password');
 
     if (storedUsername && storedPassword) {
-        window.location.href = "course.html";
+        window.location.href = "inst.html";
         alert("You are already logged in");
     }
 }
