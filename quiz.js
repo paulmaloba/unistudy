@@ -8,7 +8,7 @@ const willingMsg = document.querySelector(".going-to-pay");
 
 //add functionality to proc buttons
 unistudyQuiz.addEventListener('click', () => {
-    showNeedToPay.innerHTML = "To make your study habbit organised we only give to you content that is necessaryat a soecific period." + "<br/>"
+    showNeedToPay.innerHTML = "To make your study habbit organised we only give to you content that is necessary at a specific moment." + "<br/>"
         + "Therefore, Unistudy quiz is only available 2 weeks before the test. This is to help you get ready for the test.";
     unistudyQuiz.style.color = "red";
     
@@ -44,6 +44,6 @@ yesBtn.addEventListener('click', () => {
 noBtn.addEventListener('click', () => {
     alert("You are proceeding to Unisudy quiz");
     showNeedToPay.style.display = "block";
-    showNeedToPay.innerHTML = "To make your study habbit organised we only give to you content that is necessaryat a soecific period." + "<br/>"
+    showNeedToPay.innerHTML = "To make your study habbit organised we only give to you content that is necessary at a specific period." + "<br/>"
         + "Therefore, Unistudy quiz is only available 2 weeks before the test. This is to help you get ready for the test.";
 });
