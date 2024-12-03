@@ -9,9 +9,9 @@ function subm() {
     document.getElementById("promp").textContent = result;
 }
 */
-window.onload = function() {
-    autoLogin();
-}
+//window.onload = function() {
+  //  autoLogin();
+//}
 /*
 function autoLogin() {
     const storedUsername = localStorage.getItem('username');
@@ -26,6 +26,7 @@ function autoLogin() {
     }
 } 
 */
+/*
 function subm() {
     const username = document.getElementById("name").value;
     const password = document.getElementById("password").value;
@@ -61,14 +62,14 @@ function sumt() {
         
     }
 }
-
+*/
 
 const getStarted = document.querySelector(".get-started");
 getStarted.addEventListener('click', function(){
-    window.location.href = "login.html";
+    window.location.href = "inst.html";
 })
 
-
+/*
 function logout(){
     alert("Are you sure you want to clear all your credetials\nNext time you try to login you will be asked to create new accout");
     yesLogOut();
@@ -77,3 +78,4 @@ function logout(){
 function yesLogOut(){
     localStorage.removeItem('username');
 } 
+    */
