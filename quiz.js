@@ -8,7 +8,8 @@ const willingMsg = document.querySelector(".going-to-pay");
 
 //add functionality to proc buttons
 unistudyQuiz.addEventListener('click', () => {
-    showNeedToPay.innerHTML = "Can't open" + "<br/>" + "You need to subscribe!";
+    showNeedToPay.innerHTML = "To make your study habbit organised we only give to you content that is necessaryat a soecific period." + "<br/>"
+        + "Therefore, Unistudy quiz is only available 2 weeks before the test. This is to help you get ready for the test.";
     unistudyQuiz.style.color = "red";
     
 })
@@ -30,7 +31,7 @@ job.addEventListener('click', () => {
 
 const procee = document.getElementById("proceed-tutor");
 procee.addEventListener('click', () => {
-    showNeedToPay.innerHTML = "Can't open" + "<br/>" + "You need to subscribe!";
+    showNeedToPay.innerHTML = "Can't open" + "<br/>" + "Tutors are not online at the moment";
 })
 
 const yesBtn = document.getElementById("yess");
@@ -43,5 +44,6 @@ yesBtn.addEventListener('click', () => {
 noBtn.addEventListener('click', () => {
     alert("You are proceeding to Unisudy quiz");
     showNeedToPay.style.display = "block";
-    showNeedToPay.innerHTML = "Can't open" + "<br/>" + "You need to subscribe!";
+    showNeedToPay.innerHTML = "To make your study habbit organised we only give to you content that is necessaryat a soecific period." + "<br/>"
+        + "Therefore, Unistudy quiz is only available 2 weeks before the test. This is to help you get ready for the test.";
 });
