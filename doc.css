@@ -11,7 +11,7 @@
     border-radius: 20px transparent;   
 }
 .doc button{
-    background: darkslateblue;
+    background: #a600cd;
     font-weight: 500;
     width: 500px;
     border: 1px solid #222;
@@ -24,10 +24,25 @@
     transition: all 0.3s;
 }
 body{
-    background-color:
+    background-color: darkslateblue;
 }
+
+.hedi img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+.hedi{
+    display: flex;
+    justufy-content: space-around;
+    gap: 3em;
+    background-color: skyblue;
+    
+}
+
 #save button{
-    background: darkslateblue;
+    background: #aeaebe86;
     min-height: 50px;
     width: 250px;
     color: white;
@@ -88,7 +103,7 @@ footer p1 span{
 
 @media only screen and (max-width: 768px) {
     .doc button, #save button {
-        width: 100%;
+        width: 80%;
         min-height: 50px;
         font-size: 16px;
         padding: 10px;

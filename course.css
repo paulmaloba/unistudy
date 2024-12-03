@@ -3,18 +3,18 @@ body{
 }
 center{
     
-    width: 100%;
+    
     border-radius: 8px;
    
 }
 .courses{
     font-size: 40px;
-    background: darkslateblue;
+    background: #8c00d9;
     min-height: 100px;   
     border-radius: 20px;
     border: 7px solid white;
-    width: 500px;
-    
+    width: 60%;
+    margin-bottom: 2em;
 }
 .log{
     background: darkslateblue;
@@ -48,8 +48,8 @@ center{
 .courses button{
 font-size: 30px;
 top: -8px;
-background: darkslateblue;
-width: 80%;
+background: #8c00d9;
+width: 40%;
 transition: all 0.2s;
 }
 .courses button:hover{
@@ -73,8 +73,8 @@ transition: all 0.2s;
     .courses {
         font-size: 24px;
         min-height: 80px;
-        width: 100%;
-        margin: 10px auto;
+        
+        
     }
     .logo {
         padding-top: 20px;
@@ -99,10 +99,10 @@ transition: all 0.2s;
     }
     .courses button {
         font-size: 24px;
-        width: 100%;
+        width: 80%;
     }
     .courses button:hover {
         font-size: 28px;
-        width: 100%;
+        
     }
 }
