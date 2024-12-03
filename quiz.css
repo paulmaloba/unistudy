@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+#first-line{
+    color: darkorange;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 15px;
+}
+p{
+    color: rgb(42, 165, 93);
+}
+li{
+    font-size: 25px;
+    font-weight: 300;
+    list-style-position: inside;
+    list-style-type: circle;
+    margin-top: 10px;
+}
+.list-one{
+    color: red
+}
+.list-two{
+    color: rgb(255, 0, 242);
+}
+.list-three{
+    color: chocolate;
+}
+.list-4{
+    color: lightsalmon;
+}
+/*
+.proc-reading{
+    font-size: 25px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 7px;
+}
+    */
+
+.quiz-adverts{
+    margin-top: 3em;
+}
+.dyk{
+    font-size: 30px;
+    text-decoration: underline;
+    color: darkorange;
+}
+#adverts{
+    font-size: 26px;
+    margin-top: 10px;
+}
+#jobi{
+    color: darkorange;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#jobi:hover{
+    color: blue;
+}
+#proceed-tutor{
+    color: darkorange;
+    text-decoration: underline;
+}
+#proceed-tutor:hover{
+    color: blue;
+}
+.proc-btns button{
+    font-size: 20px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: darkslateblue;
+}
+.proc-btns button:hover{
+    background-color: rgb(44, 12, 247);
+}
+#displayy{
+    color: red;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.going-to-pay{
+    background-color: darkslateblue;
+    width: 300px;
+    font-size: 25px;
+    border: 1px solid red;
+}
+.going-to-pay p{
+    color: white;
+    font-size: 20px;
+}
+.going-to-pay button{
+    font-size: 25px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 15px;
+}
+.going-to-pay button.no{
+background-color: rgb(179, 170, 170);
+font-weight: 100;
+color: rgb(214, 206, 194);
+}
+.going-to-pay button.no:hover{
+    background-color: rgb(31, 31, 105);
+}
+#yess:hover{
+    background-color: blue;
+    color: white;
+}

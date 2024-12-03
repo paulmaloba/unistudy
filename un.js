@@ -12,17 +12,20 @@ function subm() {
 window.onload = function() {
     autoLogin();
 }
-
+/*
 function autoLogin() {
     const storedUsername = localStorage.getItem('username');
     const storedPassword = localStorage.getItem('password');
 
     if (storedUsername && storedPassword) {
-        window.location.href = "inst.html";
+        
         alert("You are already logged in");
+        window.location.href = "inst.html";
+    }else{
+        window.location.href = "login.html";
     }
-}
-
+} 
+*/
 function subm() {
     const username = document.getElementById("name").value;
     const password = document.getElementById("password").value;
@@ -30,11 +33,15 @@ function subm() {
     localStorage.setItem('username', username);
     localStorage.setItem('password', password);
     const pas = "yanita";
-    if (password === pas){
+    let fillIn = document.getElementById("fill-in");
+    
+    if (password.length >= 6 && username){
         alert("Welcome " + nam + "\nYou have successifully created an account with Unistudy");
-        window.location.href = "course.html";
+        window.location.href = "inst.html";
+        
     }else{
-        alert("Incorrect password");
+    fillIn.classList.add("fillin");
+        fillIn.textContent = "Please fill in correct details!";
     }
 }
 function sumt() {
@@ -45,12 +52,28 @@ function sumt() {
     const storedPassword = localStorage.getItem('password');
 
     if (enteredUsername === storedUsername && enteredPassword === storedPassword) {
-        window.location.href = "course.html"
+        window.location.href = "inst.html"
         alert("Welcome back " + na + "\nThank you for trusting our platform");
-        ;
+        
     }else{
         window.location.href = "login.html";
         alert("your account cannot be found\nPlease go back and create an account");
         
     }
 }
+
+
+const getStarted = document.querySelector(".get-started");
+getStarted.addEventListener('click', function(){
+    window.location.href = "login.html";
+})
+
+
+function logout(){
+    alert("Are you sure you want to clear all your credetials\nNext time you try to login you will be asked to create new accout");
+    yesLogOut();
+    
+}
+function yesLogOut(){
+    localStorage.removeItem('username');
+} 
