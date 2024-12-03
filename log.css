@@ -1,11 +1,26 @@
-body{
-    background-image: url(cbu.jpg) no-repeat;
-    background-position: center;
-    background: gray;
+*{
+    box-sizing: birder-box;
+    padding: 0;
+    margin: 0;
 }
-.rec p1 {
-    color: white;
-    font-weght: bold;
+
+body{
+    background-position: center;
+    background: darkslateblue;
+}
+
+.hedi img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+.hedi{
+    display: flex;
+    justufy-content: space-around;
+    gap: 3em;
+    background-color: skyblue;
+    
 }
 
 #im1{
@@ -41,6 +56,15 @@ body{
     border-radius: 20px transparent;
 }
 .wrapper{
+   position: relative;
+   background: transparent;
+   backdrop-filter: blur(15px);
+   border: 1px solid gray;
+   padding: 10px 20px;
+   width: 80%;
+   background-color: #791995;
+   margin-top: 3em;
+/*
    align-items: center;
    position: absolute;
    top: 20%;
@@ -48,8 +72,37 @@ body{
    width: 500px;
    background-color: darkslateblue;
    cursor: pointer;
-   background-filter: blur(5px);
    transition: all 0.3s;
+   */
+}
+
+.cred{
+    position: relative;
+    margin: 20px 0;
+    width: 98%;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+}
+.wrapper input::placeholder{
+    left: 1em;
+    position: absolute;
+    
+}
+
+.login a{
+    color: white;
+    style: none;
+    margin-top: 1em;
+}
+.wrapper button{
+    border: none;
+    padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 7px;
+    margin-top: 1em;
+    
+    background: skyblue;
 }
 .input-box{
     border-radius: 20px;
@@ -57,27 +110,34 @@ body{
    
     
 }
+.fillin{
+    color: red;
+    font-size: 15px;
+}
 .login{
-    color: aliceblue;
+    color:aliceblue;
     font-size: 25px;
 }
+/*
 .wrapper:hover{
-    
     border: 4px solid rgb(21, 94, 230);
     
     background: blur;
     border-radius: 20px;
     
 }
+**/
 .guest button{
     color: rgb(0, 0, 0);
     cursor: pointer;
     transition: all 0.3s;
+    font-size: 20px;
+    background-color: gray;
 }
 .guest button:hover{
     border-radius: 20px;
     border: 5px solid skyblue;
-    font-size: 18px;
+    
 }
 floor{
     background: rgba(27, 26, 26, 0.822);
@@ -128,63 +188,47 @@ floor p1 span{
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-    #im1, im2 {
-        position: relative;
-        top: 10px;
-        left: 0;
-        right: 0;
-        margin: 10px auto;
-        display: block;
-        width: 50px;
-    }
-    .log h1 {
-        right: 0;
-        left: 0;
-        position: relative;
-        font-size: 24px;
-        text-align: center;
-        margin: 0 auto;
-    }
-    .rec p1 {
-        color: white;
-        margin-top: 50%;
-    }
-    .wrapper {
-        width: 90%;
-        right: 5%;
-        top: 35%;
-        
-    }
-    .input-box {
-        font-size: 24px;
-        width: 100%;
-    }
-    .login {
-        font-size: 20px;
-    }
-    .fb button {
-        right: 0;
-        left: 0;
-        font-size: 24px;
-        text-align: center;
-        margin: 20px auto;
-        position: relative;
-    }
-    floor {
-        font-size: 18px;
-        top: auto;
-        bottom: 0;
-        padding: 10px 0;
-    }
-    floor p1, floor p2, floor p3 {
-        position: relative;
-        top: 0;
-        right: 0;
-        left: 0;
-        margin: 10px auto;
-        text-align: center;
-    }
+.submit {
+    font-size: 6em;
+    border: rgb(0, 0, 0), solid;
+}
+.prom {
+    color: rgb(49, 11, 138);
+    font-size: 24px;
+    background: gray;
+    height: 200px;
+    margin-top: 8em;
+    padding: 10px 0;
+    border: white, solid;
+    width: 700px;
+
+    animation-name: slideInLeft;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-iteration-count: 1;
     
+
+}
+.pro button {
+    background: gray;
+    border: rgb(36, 28, 83), solid;
+    transition: all 0.4s;
+    cursor: pointer;
+    width: 100px;
+}
+.pro button:hover{
+    border: white, solid;
+    background: darkcyan;
+    color: white;
 }
 
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
